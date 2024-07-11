@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+    background: #f0f0f0;
+}
+
+#container{
+    width: 800px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+#wlc-note{
+    height: 100%;
+    width: 50%;
+    background: linear-gradient(135deg,#FFC371,#FF5F6D ,#8E44AD,#3498DB);
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wlc-note h1{
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    margin-right: 30%;
+}
+
+#form-container{
+    height: 100%;
+    width: 50%;
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    width: 80%;
+}
+
+.form h2{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.form p{
+    text-align: center;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    color: gray;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="password"]{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.remember-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input[type="checkbox"]{
+    margin-right: 10px;
+}
+
+.forget-password{
+    margin-left: auto;
+    color: #3498DB;
+    text-decoration: none;
+}
+
+.forget-password:hover{
+    text-decoration: underline;
+}
+
+.login-btn{
+    width: 100%;
+    padding: 12px;
+    background: #3498DB;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.login-btn:hover{
+    background: #2980B9;
+}
+
+a{
+    color: #3498DB;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+p a{
+    display: inline-block;
+    margin-left: 5px;
+}
